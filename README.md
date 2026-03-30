@@ -4,7 +4,7 @@ UniPlan is a **university timetable scheduling** mobile app built with **Flutter
 
 ## Features
 
-- **Authentication** — Email/password via Firebase Auth; routing by role (`student`, `faculty`, `admin`).
+- **Authentication** — Email/password via Firebase Auth; routing by role (`student`,  `admin`).
 - **Student** — Today’s classes, semester/division timetable, **PDF export & share** for the weekly grid, **notifications** panel (pin / delete per user, badge count), profile, **offline-friendly** cache with connectivity banner.
 - **Admin** — Timetable CRUD, **conflict checks** (teacher, room, same class at same time), **weekly subject limits** (e.g. lectures + lab), **rooms from Firebase**, suggested **free time slots** and **available rooms**, broadcast announcements (stored for the notifications panel).
 - **Theming** — Light/dark mode (persisted with `shared_preferences`).
